@@ -8,6 +8,8 @@ BEGIN {}
 PROCESS {
 Write-Output $ComputerName
 Write-Output $ErrorLog
+Start-Sleep -Seconds 3
+Write-Host "That's all"
 }
 END {}
 }
